@@ -1,0 +1,304 @@
+{
+  "user": [
+    {
+      "id": "#01",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@doe.com"
+    },
+    {
+      "id": "#02",
+      "firstName": "Ravi",
+      "lastName": "Kumar",
+      "email": "ravi@example.com"
+    },
+    {
+      "id": "#03",
+      "firstName": "Suneel",
+      "lastName": "rao",
+      "email": "suneel@example.com"
+    },
+    {
+      "id": "#04",
+      "firstName": "David",
+      "lastName": "Miller",
+      "email": "david@example.com"
+    },
+    {
+      "id": "#05",
+      "firstName": "Megna",
+      "lastName": "kumari",
+      "email": "megna@example.com"
+    }
+  ],
+  "study": [
+    {
+      "studycode": "ECE-01",
+      "studyname": "Electronic Communication Engineering",
+      "Year": "First Year"
+    },
+    {
+      "studycode": "CSE-01",
+      "studyname": "Computer Science Engineering",
+      "Year": "First Year"
+    },
+    {
+      "studycode": "ME-01",
+      "studyname": "Mechanical Engineering",
+      "Year": "First Year"
+    },
+    {
+      "studycode": "IT-01",
+      "studyname": "Information Technology",
+      "Year": "First Year"
+    },
+    {
+      "studycode": "CIVIL-01",
+      "studyname": "Civil Engineering",
+      "Year": "First Year"
+    },
+    {
+      "studycode": "EEE-01",
+      "studyname": "Electrical & Electronic Engineering",
+      "Year": "First Year"
+    },
+    {
+      "id": 1,
+      "studycode": "my-01",
+      "studyname": "Mycalss",
+      "Year": "2"
+    },
+    {
+      "studycode": "student",
+      "studyname": "Brilliant",
+      "year": "First Year",
+      "id": "MkZaSVP"
+    }
+  ],
+  "student": [
+    {
+      "session": "John",
+      "studyname": "Electrical & Electronic Engineering",
+      "Year": "First Year"
+    },
+    {
+      "session": "Ravi",
+      "studyname": "Computer Science Engineering",
+      "Year": "First Year"
+    },
+    {
+      "session": "Suneel",
+      "studyname": "Electronic Communication Engineering",
+      "Year": "First Year"
+    },
+    {
+      "session": "David",
+      "studyname": "Information Technology",
+      "Year": "First Year"
+    },
+    {
+      "session": "Megna",
+      "studyname": "Mechanical Engineering",
+      "Year": "First Year"
+    }
+  ],
+  "subject": [
+    {
+      "subjectCode": "MATH-01",
+      "subjectName": "Mathematics",
+      "Year": "First Year"
+    },
+    {
+      "subjectCode": "PHY-01",
+      "subjectName": "Physics",
+      "Year": "First Year"
+    },
+    {
+      "subjectCode": "CH-01",
+      "subjectName": "Chemistry",
+      "Year": "First Year"
+    },
+    {
+      "subjectCode": "MECH-01",
+      "subjectName": "Mechanics",
+      "Year": "First Year"
+    },
+    {
+      "subjectCode": "EN-01",
+      "subjectName": "English",
+      "Year": "First Year"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "class": "#01",
+      "session": "John",
+      "date": "12th January 2018",
+      "section": "Present",
+      "shift": "day"
+    },
+    {
+      "id": 1,
+      "class": "#01",
+      "session": "John",
+      "date": "12th January 2018",
+      "section": "Present",
+      "shift": "day"
+    },
+    {
+      "id": 1,
+      "class": "#01",
+      "session": "John",
+      "date": "12th January 2018",
+      "section": "Present",
+      "shift": "day"
+    },
+    {
+      "id": 1,
+      "class": "#01",
+      "session": "John",
+      "date": "12th January 2018",
+      "section": "Present",
+      "shift": "day"
+    },
+    {
+      "id": 1,
+      "class": "#01",
+      "session": "John",
+      "date": "12th January 2018",
+      "section": "Present",
+      "shift": "day"
+    },
+    {
+      "class": "#08",
+      "section": "Student",
+      "session": "Brilliant",
+      "date": "12/02/2018",
+      "id": 2
+    },
+    {
+      "class": "#08",
+      "section": "Student",
+      "session": "Brilliant",
+      "date": "12/02/2018",
+      "id": 3
+    },
+    {
+      "class": "#08",
+      "section": "Student",
+      "session": "Brilliant",
+      "date": "12/02/2018",
+      "id": 4
+    },
+    {
+      "class": "#08",
+      "section": "Student",
+      "session": "Brilliant",
+      "date": "12/02/2018",
+      "id": 5
+    },
+    {
+      "class": "#08",
+      "section": "Student",
+      "session": "Brilliant",
+      "date": "12/02/2018",
+      "id": 6
+    },
+    {
+      "class": "#09",
+      "section": "second",
+      "session": "Brilliant",
+      "date": "12/8/2018",
+      "id": 7
+    },
+    {
+      "class": "#10",
+      "section": "second",
+      "session": "Brilliant",
+      "date": "12/8/2018",
+      "id": 8
+    },
+    {
+      "class": "Eigth",
+      "session": "Day",
+      "date": "2018-07-13",
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "class": "classes",
+      "session": "mus",
+      "date": "2018-07-19",
+      "id": 11
+    }
+  ],
+  "marks": [
+    {
+      "id": 2,
+      "registrationNo": 201802,
+      "rollNo": 2,
+      "name": "Suneel",
+      "written": 45,
+      "MCQ": 15,
+      "practical": 18,
+      "SBA": 3,
+      "isAbsent": "No"
+    },
+    {
+      "id": 3,
+      "registrationNo": 201803,
+      "rollNo": 3,
+      "name": "David",
+      "written": 42,
+      "MCQ": 18,
+      "practical": 16,
+      "SBA": 4,
+      "isAbsent": "No"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    }
+  ]
+}
