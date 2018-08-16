@@ -1,0 +1,231 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+},{
+"user": [
+{
+"id": "#01",
+"firstName": "John",
+"lastName": "Doe",
+"email": "john@doe.com"
+},
+{
+"id": "#02",
+"firstName": "Ravi",
+"lastName": "Kumar",
+"email": "ravi@example.com"
+},
+{
+"id": "#03",
+"firstName": "suneel",
+"lastName": "rao",
+"email": "suneel@example.com"
+},
+{
+"id": "#04",
+"firstName": "David",
+"lastName": "Miller",
+"email": "david@example.com"
+},
+{
+"id": "#05",
+"firstName": "Megna",
+"lastName": "kumari",
+"email": "megna@example.com"
+},
+{
+"email": "mailtomdimu@gmail.com",
+"firstName": "Mohd",
+"lastName": "Imran",
+"id": "9BDeMF6"
+},
+{
+"email": "admin@example.com",
+"firstName": "First Name",
+"lastName": "Last Name",
+"id": "9z9ria7"
+},
+{
+"email": "fdsdfdsfdF",
+"firstName": "fsdfsd",
+"lastName": "sdf",
+"id": "aZ__B5_"
+}
+],
+"class": [
+{
+"id": "01",
+"classCode": "ECE-01",
+"className": "Electronic Communication Engineering",
+"description": "Hello",
+"combinePass": "",
+"created_at": "",
+"updated_at": ""
+},
+{
+"id": "02",
+"classCode": "CSE-01",
+"className": "Computer Science Engineering",
+"description": "Hello",
+"combinePass": "",
+"created_at": "",
+"updated_at": ""
+},
+{
+"id": "03",
+"classCode": "IT-01",
+"className": "Information Technology",
+"description": "Hello",
+"combinePass": "",
+"created_at": "",
+"updated_at": ""
+},
+{
+"id": "04",
+"classCode": "CIVIL-01",
+"className": "Civil Engineering",
+"description": "Hello",
+"combinePass": "",
+"created_at": "",
+"updated_at": ""
+},
+{
+"id": "05",
+"classCode": "ME-01",
+"className": "Mechanical Engineering",
+"description": "Hello",
+"combinePass": "",
+"created_at": "",
+"updated_at": ""
+}
+],
+"student": [
+{
+"studentName": "John",
+"DOB": "01-01-1996",
+"className": "Electrical & Electronic Engineering",
+"Year": "First Year"
+},
+{
+"studentName": "Ravi",
+"DOB": "04-07-1996",
+"className": "Computer Science Engineering",
+"Year": "First Year"
+},
+{
+"studentName": "Suneel",
+"DOB": "19-02-1997",
+"className": "Electronic Communication Engineering",
+"Year": "First Year"
+},
+{
+"studentName": "David",
+"DOB": "28-12-1995",
+"className": "Information Technology",
+"Year": "First Year"
+},
+{
+"studentName": "Megna",
+"DOB": "21-11-1997",
+"className": "Mechanical Engineering",
+"Year": "First Year"
+}
+],
+"subject": [
+{
+"subjectCode": "MATH-01",
+"subjectName": "Mathematics",
+"Year": "First Year"
+},
+{
+"subjectCode": "PHY-01",
+"subjectName": "Physics",
+"Year": "First Year"
+},
+{
+"subjectCode": "CH-01",
+"subjectName": "Chemistry",
+"Year": "First Year"
+},
+{
+"subjectCode": "MECH-01",
+"subjectName": "Mechanics",
+"Year": "First Year"
+},
+{
+"subjectCode": "EN-01",
+"subjectName": "English",
+"Year": "First Year"
+},
+{
+"id": 1,
+"subjectCode": "MATH-01",
+"subjectName": "Mathematics",
+"Year": "First Year"
+},
+{
+"subjectCode": "fsdafsd",
+"subjectName": "fsd",
+"Year": "sdf",
+"id": 2
+},
+{
+"subjectCode": "aaaaa",
+"subjectName": "a",
+"Year": "a",
+"id": 4
+},
+{
+"subjectCode": "fdsfsd",
+"subjectName": "fsd",
+"Year": "fsdfsd",
+"id": 5
+}
+],
+"attendance": [
+{
+"rollNumber": "#01",
+"studentName": "John",
+"date": "12th January 2018",
+"isPresent": "Present"
+},
+{
+"rollNumber": "#02",
+"studentName": "Ravi",
+"date": "13th January 2018",
+"isPresent": "Present"
+},
+{
+"rollNumber": "#03",
+"studentName": "Suneel",
+"date": "14th January 2018",
+"isPresent": "Present"
+},
+},
+{
+"rollNumber": "#04",
+"studentName": "Megna",
+"date": "15th January 2018",
+"isPresent": "Present"
+}
+]
+}
+
+
+
+

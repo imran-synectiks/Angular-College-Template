@@ -1,0 +1,24 @@
+<div class="card card-body p-4">
+  <h2> Class Details</h2>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Class code</th>
+      <th>Class Name</th>
+      <th>year</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let study of studies">
+      <td class="hidden">{{study.studycode}}</td>
+      <td>{{study.studyname}}</td>
+      <td>{{study.year}}</td>
+      <td><button class="btn btn-danger" (click)="deleteStudy(study)"> Delete Class</button></td>
+      <td><button class="btn btn-danger" (click)="editStudy(study)"> Edit Class</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

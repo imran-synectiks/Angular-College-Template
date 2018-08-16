@@ -1,0 +1,85 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+<div style="text-align:center">
+
+    <h1>
+      Welcome to {{title}}!!
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+    <label class="control-label" for="Country">Class:</label>
+    <select *ngIf="getCountries()" [(ngModel)]="selectedCountry" (change)="onSelectCountry($event.target.value)" class="form-control input-lg"
+            id="country">
+      <option value="0">Select Class</option>
+      <option *ngFor="let country of getCountries()" value= {{country.id}}>{{country.name}}</option>
+    </select>
+  </div>
+</div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="control-label" for="Country">Section:</label>
+        <select *ngIf="getCountries()" [(ngModel)]="selectedCountry" (change)="onSelectCountry($event.target.value)" class="form-control input-lg"
+                id="session">
+          <option value="0">Section</option>
+          <option *ngFor="let section of getSections()" value= {{section.id}}>{{section.name}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="control-label" for="States">Subject:</label>
+        <select *ngIf="states" [(ngModel)]="selectedState" (change)="onSelectState($event.target.value)" class="form-control input-lg" id="state">
+          <option value="0">Select Subject</option>
+          <option *ngFor="let state of states" value= {{state.id}}>{{state.name}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="control-label" for="City">Examinations:</label>
+        <select class="form-control input-lg" id="city">
+          <option *ngIf="!selectedState" value="0">Select Exam</option>
+          <option *ngFor="let city of cities" value= {{city.id}}>{{city.name}}</option>
+        </select>
+      </div>
+    </div>
+
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Registration No</th>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Written</th>
+        <th>MCQ</th>
+        <th>Practical</th>
+        <th>SBA</th>
+        <th>Absent</th>
+        <th>Action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let country of countries">
+        <td class="">{{country.id}}</td>
+        <td class="">{{country.registrationNo}}</td>
+        <td class="">{{country.rollNo}}</td>
+        <td>{{country.name}}</td>
+        <td>{{country.written}}</td>
+        <td>{{country.MCQ}}</td>
+        <td>{{country.practical}}</td>
+        <!--<td>{{country.SBA}}</td>-->
+        <!--<td>{{country.isAbsent}}</td>-->
+        <td><input [(ngModel)]="country.SBA" placeholder="Last name" name="lastName" class="form-control" id="lastName"></td>
+        <td><input [(ngModel)]="country.isAbsent" placeholder="Last name" name="lastName" class="form-control" id="lastName"></td>
+
+        <td><button class="btn btn-warning" (click)="createCountry(country)"> Add</button>
+
+      </tr>
+      </tbody>
+    </table>
+
+</div>
+</div>

@@ -1,0 +1,21 @@
+<div class="card card-block p-4">
+  <h2 class="text-center">Add study</h2>
+  <form>
+    <div class="form-group">
+      <label for="email">Class Code:</label>
+      <input type="email" [(ngModel)]="study.studycode" placeholder="Study Code" name="studycode" class="form-control" id="email">
+    </div>
+
+    <div class="form-group">
+      <label for="firstName">Class Name:</label>
+      <input [(ngModel)]="study.studyname" placeholder="Study Name" name="studyName" class="form-control" id="firstName">
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">Year:</label>
+      <input [(ngModel)]="study.year" placeholder="Year" name="year" class="form-control" id="lastName">
+    </div>
+
+    <button class="btn btn-success" (click)="createStudy()">Create</button>
+  </form>
+</div>

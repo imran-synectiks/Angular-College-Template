@@ -1,0 +1,26 @@
+<div class="card card-body p-4">
+  <h2> Attendance Details</h2>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Class</th>
+      <th>Section</th>
+      <th>Shift</th>
+      <th>Session</th>
+      <th>Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let attend of attends">
+      <td class="hidden">{{attend.class}}</td>
+      <td>{{attend.section}}</td>
+      <td>{{attend.session}}</td>
+      <td>{{attend.shift}}</td>
+      <td>{{attend.date}}</td>
+      <td><button class="btn btn-danger" (click)="deleteAttend(attend)"> Delete Attendance</button></td>
+      <td><button class="btn btn-danger" (click)="editAttend(attend)"> Edit Attendance</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,28 @@
+<div class="card card-block p-4">
+  <h2 class="text-center">Attendance Entry</h2>
+  <form>
+    <div class="form-group">
+      <label for="email">Class</label>
+      <input type="text" [(ngModel)]="attend.class" placeholder="Class" name="email" class="form-control" id="email">
+    </div>
+
+    <div class="form-group">
+      <label for="firstName">Section</label>
+      <select [(ngModel)]="AttendanceModel" placeholder="Section" name="firstName" class="form-control" id="firstName">
+        <option *ngFor="let Attendance of Attendances" value="Attendance">{{Attendance}}</option>
+
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">Shift</label>
+      <input [(ngModel)]="attend.session" placeholder="Shift" name="lastName" class="form-control" id="lastName">
+    </div>
+ <div class="form-group">
+      <label for="lastName">Date</label>
+      <input [(ngModel)]="attend.date" placeholder="Enter Date" type="date" name="lastName" class="form-control" id="date">
+    </div>
+
+    <button class="btn btn-success" (click)="createAttend()">Create</button>
+  </form>
+</div>

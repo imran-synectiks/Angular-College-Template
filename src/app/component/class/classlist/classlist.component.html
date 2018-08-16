@@ -1,0 +1,16 @@
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    <span>Code</span>
+    <span>Name</span>
+    <span>Description</span>
+    <span> </span>
+    <span> </span>
+  </li>
+  <li *ngFor = "let detail of details" class="list-group-item d-flex justify-content-between align-items-center">
+    <span>{{detail.code}}<a></a></span>
+    <span>{{detail.name}}</span>
+    <span>{{detail.description}}</span>
+    <button>Edit</button>
+    <button>Delete</button>
+  </li>
+</ul>
